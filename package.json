@@ -1,0 +1,40 @@
+{
+  "name": "react-ts-starter",
+  "version": "1.0.0",
+  "description": "Starter kit for react+typescript",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "lint": "tslint *.js src/**/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": "arusakov",
+  "license": "MIT",
+  "dependencies": {
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-router": "3.0.2",
+    "tslib": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "15.0.6",
+    "@types/react-dom": "0.14.22",
+    "@types/react-hot-loader": "^3.0.1",
+    "@types/react-router": "3.0.0",
+    "awesome-typescript-loader": "^3.0.0-beta.19",
+    "css-loader": "^0.26.1",
+    "html-webpack-plugin": "2.28.0",
+    "react-hot-loader": "next",
+    "style-loader": "^0.13.1",
+    "ts-loader": "2.0.0",
+    "tslint": "4.4.2",
+    "typescript": "2.2.0",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "2.3.0",
+    "webpack-merge": "2.6.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "dom", "es2015"
+    ],
+    "types": [],
+    "moduleResolution": "node",
+    "jsx": "react",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "inlineSourceMap": true
+  }
+}

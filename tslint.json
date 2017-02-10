@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "tslint:latest"
+  ],
+  "jsRules": {
+    "quotemark": [
+      true, "single"
+    ],
+    "semicolon": [
+      true, "never"
+    ],
+    "trailing-comma": [
+      true, {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ]
+  },
+  "rules": {
+    "member-access": false,
+    "quotemark": [
+      true, "single"
+    ],
+    "semicolon": [
+      true, "never"
+    ],
+    "trailing-comma": [
+      true, {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ]
+  }
+}
