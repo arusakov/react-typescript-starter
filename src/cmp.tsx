@@ -6,16 +6,21 @@ export class Cmp extends React.Component<void, any> {
   state = {
     x: 2,
   }
+  timeout = 0;
 
   componentDidMount() {
-    window.setInterval(() => {
+    this.timeout = window.setInterval(() => {
       this.setState({
         x: ++this.state.x,
       })
     }, 1000)
   }
 
+  componentWillUnmount() {
+    window.clearInterval(this.timeout)
+  }
+
   render() {
-    return <div>{this.state.x} !!2211!!!</div>
+    return <div>xyz {this.state.x} 123__</div>
   }
 }
